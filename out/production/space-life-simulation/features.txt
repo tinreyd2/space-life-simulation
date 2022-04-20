@@ -1,29 +1,24 @@
 Features to add:
 1st:
   Organism
-    Health done
-    Fuel done
-    Speed done
-    Evasiveness done, implement once adding combat
-    Position done
+    Health
+    Fuel
+    Speed
+    Evasiveness
+    Position
     Direction
-    Refuel speed done
+    Refuel speed
     Have all stats add up to a constant so no organism can be too strong
-    Death done
+    Death
   World
-    Random food/fuel done
-    Boundaries done
-    Bouncing off boundaries done
-  Fuel
-    Siphoning
-    Change radius of fuel while siphoning
-    Store velocities while
+    Random food/fuel
+    Boundaries
+    Bouncing off boundaries
   System
     Add more food/fuel every so often
     Have a global timer (threads)
 2nd:
   Organism:
-    REPRODUCTION!!!
     Ability to kill
     Strategies
       Aggressive, Passive, Friendly, Scared, etc.
@@ -38,7 +33,7 @@ Features to add:
       Shotgun, sniper, rifle, machine gun, rocket launcher etc.
   Graphics:
     World boundaries based on window size
-    Have characters move around done
+    Have characters move around
     Have various statistics on screen
     
       
