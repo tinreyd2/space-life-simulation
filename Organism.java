@@ -158,8 +158,6 @@ public class Organism extends Item {
         if (this.movingTowardsFuel(other) && Math.pow(this.radius - other.radius,2) <= circleCalc
                 && circleCalc <= Math.pow(this.radius + other.radius, 2)) {
             this.attach(other);
-            this.xVel = 0;
-            this.yVel = 0;
             return true;
         }
         return false;

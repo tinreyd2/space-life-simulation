@@ -33,7 +33,12 @@ public class World {
                 organism.collideWithWall(0, maxX, 0, maxY);
                 organism.updatePosition();
                 for (Fuel fuel : fuels) {
-                    organism.checkAttach(fuel);
+                    if (organism.checkAttach(fuel)) {
+                        organism.attach(fuel);
+                        organism.setxVel(0);
+                        organism.setyVel(0);
+                    }
+
                 }
             }
         }
